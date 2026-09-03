@@ -13,12 +13,22 @@ export default function Navbar() {
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between rounded-full border border-white/[0.08] bg-[#080a0f]/70 px-5 py-3.5 shadow-[0_10px_40px_rgba(0,0,0,0.18)] backdrop-blur-xl sm:px-6">
         <a
-          href="#"
-          aria-label="Back to top"
-          className="text-base font-semibold tracking-[-0.03em] text-white"
-        >
-          BP<span className="text-violet-400">.</span>
-        </a>
+  href="#"
+  aria-label="Back to top"
+  className="group flex items-center gap-3"
+>
+  <div className="h-10 w-10 overflow-hidden rounded-full border border-white/[0.10] bg-white/[0.04] shadow-[0_0_20px_rgba(139,92,246,0.12)] transition duration-300 group-hover:border-violet-400/30 group-hover:shadow-[0_0_25px_rgba(139,92,246,0.22)]">
+    <img
+  src="/avatar.png"
+  alt="Bishal Patra"
+  className="h-full w-full object-cover"
+/>
+  </div>
+
+  <span className="hidden text-sm font-medium tracking-[-0.02em] text-white/80 sm:block">
+    B E E
+  </span>
+</a>
 
         <nav className="hidden items-center gap-8 text-sm md:flex">
           <a
