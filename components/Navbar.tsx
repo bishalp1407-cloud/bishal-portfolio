@@ -61,7 +61,7 @@ export default function Navbar() {
         </nav>
 
         <a
-          href="/resume.pdf"
+          href="/Bishal_Patra_Resume.pdf"
           target="_blank"
           rel="noreferrer"
           className="group flex items-center gap-2 rounded-full border border-white/[0.08] bg-white/[0.05] px-4 py-2 text-xs font-medium text-white/75 transition hover:border-white/[0.14] hover:bg-white/[0.09] hover:text-white sm:px-5 sm:text-sm"
